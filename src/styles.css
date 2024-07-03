@@ -1,0 +1,72 @@
+.menu {
+  background-color: #333;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 0 10px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-item a:hover {
+  color: #ffd700;
+  /* Cor ao passar o mouse */
+}
+
+.cartWidget {
+  background-color: rgb(255, 211, 80);
+  width: 60px;
+  height: 60px;
+}
+.cartWidget img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .content-item {
+  display: flex;
+}
+.container .content-item .item {
+  width: 300px;
+}
+
+.container {
+  padding: 0 32px;
+  width: 100%;
+}
+
+@media (min-width: 48em) {
+  .container {
+    width: 100%;
+    max-width: 48em;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 80em) {
+  .container {
+    width: 100%;
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0 72px;
+  }
+}/*# sourceMappingURL=styles.css.map */

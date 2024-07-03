@@ -1,0 +1,6 @@
+.container .content-item {
+  display: flex;
+}
+.container .content-item .item {
+  width: 300px;
+}/*# sourceMappingURL=item.css.map */

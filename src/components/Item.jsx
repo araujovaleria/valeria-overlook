@@ -1,14 +1,15 @@
 import React from 'react';
 
-function Item({ item }) {
+function Item({ item, onClick }) {
     return (
-        <div className='item'>
+        <div className='item' onClick={onClick}>
             <img src={item.pictureUrl} alt={item.title} />
             <h4>{item.title}</h4>
             <p>{item.description}</p>
-            <p>${item.price}</p>
+            <p>R${item.price}</p>
         </div>
     );
 }
 
 export default Item;
+

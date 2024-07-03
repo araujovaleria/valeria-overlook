@@ -1,3 +1,27 @@
 @import "styles/menu.scss";
 @import "styles/cartWidget.scss";
+@import "styles/item.scss";
+
 @import "styles/ItemListContainer.scss";
+
+.container {
+    padding: 0 32px;
+    width: 100%;
+}
+
+@media (min-width: 48em) {
+    .container {
+        width: 100%;
+        max-width: 48em;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 80em) {
+    .container {
+        width: 100%;
+        max-width: 80em;
+        margin: 0 auto;
+        padding: 0 72px;
+    }
+}
